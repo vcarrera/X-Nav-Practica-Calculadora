@@ -1,0 +1,46 @@
+body, html {
+	margin: 0;
+	padding: 0;
+    height:100%;
+    user-select: none;   
+	font-family: "Myriad Pro", Arial, sans-serif;
+	font-size: 30px;
+    letter-spacing: 2px;
+    
+}
+
+.centrame{
+    position: absolute;
+    top: 50%;
+    left: 50%;    
+    height:50%;
+    width:40%; 
+    transform: translate(-50%, -50%);    
+}
+
+#calculadora{
+    background: #eee;
+    padding: 10%;
+    padding-top: 8%;
+    border-radius: 8px;
+}
+#display {
+	height:64px;
+	padding: 0 14px;
+	color:black;
+	text-align: right;
+    vertical-align: middle;
+	line-height: 64px;	
+	border:#000 1px solid;
+	border-radius:3px;
+	background: white;
+}
+#funciones{
+    background: blue;
+}
+#teclado{
+    background: gray;
+}
+
+
+
